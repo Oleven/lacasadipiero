@@ -117,7 +117,7 @@ $(document).ready(function()
 				autoplay:true,
 				loop:true,
 				nav:false,
-				smartSpeed:1200
+				smartSpeed:2400
 			});
 
 			/* Custom dots events */
@@ -127,7 +127,7 @@ $(document).ready(function()
 				{
 					$('.home_slider_custom_dot').removeClass('active');
 					$(this).addClass('active');
-					homeSlider.trigger('to.owl.carousel', [$(this).index(), 1200]);
+					homeSlider.trigger('to.owl.carousel', [$(this).index(), 3600]);
 				});
 			}
 
